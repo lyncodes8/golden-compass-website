@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #333;
+    background-image: url("images/offers.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  header {
+    background: #4191caa7;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    
+  }
+  
+  header h1 {
+    margin:auto;
+    font-size: 30px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  .offers-container {
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 40px 40px;
+    gap: 20px;
+  }
+  
+  .swit-card {
+    background: rgba(220, 223, 228, 0.589);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in;
+    margin-left:90px;
+    margin-right: 30px;
+    
+  }
+  .japan-card {
+    background: rgba(220, 223, 228, 0.589);
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in;
+    margin-left: 90px;
+    margin-right: 50px;}
+    .bali-card {
+        background: rgba(220, 223, 228, 0.589);
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      
+        width: 300px;
+        padding: 50px;
+        text-align: center;
+        transition: transform 0.3s ease-in;
+        margin-left: 90px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+
+      }
+        
+  .japan-card:hover {
+
+    transform: scale(1.05);
+  }
+  .bali-card:hover {
+
+    transform: scale(1.05);
+  }
+  .swit-card:hover {
+
+    transform: scale(1.05);
+  }
+  .bali-card:hover {
+    background-color: #a8b0bc;
+    color: #0e1011;
+    box-shadow: 0 0 20px #a3accf, 0 0 30px #c5d0e7, 0 0 40px #a9a8c7;
+    ;
+border-radius: 40px;}
+.japan-card:hover {
+  background-color: #a8b0bc;
+  color: #0e1011;
+  box-shadow: 0 0 20px #a3accf, 0 0 30px #c5d0e7, 0 0 40px #a9a8c7;
+  ;
+border-radius: 40px;}
+.swit-card:hover {
+  background-color: #a8b0bc;
+  color: #0e1011;
+  box-shadow: 0 0 20px #a3accf, 0 0 30px #c5d0e7, 0 0 40px #a9a8c7;
+  ;
+border-radius: 40px;}
+  .offer-card h2 {
+    color: #0f3c5c;
+  }
+  
+  
+  .date-info {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .cta {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .cta button {
+    background: #2862a3;
+    color: rgb(226, 237, 242);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+  
+  .cta button:hover {
+    background: #cceced;
+  }
+  .glow-btn:hover {
+    background-color: #a8b0bc;
+    color: #0e1011;
+    box-shadow: 0 0 20px #051758, 0 0 30px #c5d0e7, 0 0 40px #0b076f;
+    ;
+  }
+  .offers-container {
+    display: flex;
+    justify-content:space-between;
+
+    flex-wrap: wrap;
+    padding: 40px 40px;
+    gap: 20px;
+  }
+  .bali-btn{
+    background-color: #dde6eb00;
+    color: #0f3c5c;
+    padding: 12Px 24px;
+    font-size:  18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  .swit-btn{
+    background-color: #dde6eb00;
+    color: #0f3c5c;
+    padding: 12Px 24px;
+    font-size:  18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  .japan-btn{
+    background-color: #dde6eb00;
+    color: #0f3c5c;
+    padding: 12Px 24px;
+    font-size:  18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  

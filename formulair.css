@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 0.5rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.back-btn {
+    display: block;
+    text-align: center;
+    background-color: #0077cc;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    padding: 15px;
+    font-size: large;
+    color: white;
+}

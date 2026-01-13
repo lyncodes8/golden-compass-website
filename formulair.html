@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Your Trip</title>
+    <link rel="stylesheet" href="formulair.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Book Your Trip</h2>
+        <form action="book.php" method="POST">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination" name="destination" required>
+        <option value="" disabled selected>Select a destination</option>
+        <option value="bali">Bali</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="kyoto">Kyoto</option>
+        <option value="osaka">Osaka</option>
+        <option value="interlaken">Interlaken</option>
+        <option value="arosa">Arosa</option>
+        <option value="lucerne">Lucerne</option>
+      </select>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="payement">Payment Method:</label>
+            <select id="payement" name="payement" required>
+        <option value=" disabled selected"> Select a payement method </option>
+        <option value="visa">Visa Card</option>
+        <option value="eldahabiya">El_Dahabiya</option>
+      </select>
+
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+
+            
+
+            <label for="travelers">Number of Travelers:</label>
+            <input type="number" id="travelers" name="travelers" min="1" value="1" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+213..." required>
+
+            <label for="notes">Special Requests:</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Write any notes here..."></textarea>
+
+            <div class="checkbox">
+                <input type="checkbox" id="confirm" required>
+                <label for="confirm">I confirm that all the information provided is correct.</label>
+            </div>
+
+            <button type="submit">Submit</button>
+            <div class="back-bttn">
+                <a href="" class="back-btn">back to home page</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

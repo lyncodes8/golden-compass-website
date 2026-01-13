@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #263092;
+    color: #6191c5;
+    background-image:url("./images/bg.jpg");
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100vh;
+  }
+
+
+  
+  header {
+    background-color: #0f4c75;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family:
+    font: size 38px;
+    letter-spacing: 1px;
+  }
+  
+  .hero {
+    
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: rgb(14, 38, 112);
+    
+  }
+  
+  .hero h2 {
+    font-size: 42px;
+    font-weight: 600;
+    background-color: rgba(56, 153, 228, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+  
+  }
+  .hero input:hover[type="submit"] {
+    transform: scale(1.05);
+  }
+  .hero input[type="submit"] {
+    background-color: #225e8b; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border:#f8f9f9 solid 2px;
+    border-radius: 5px;
+    text-font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    
+    
+}
+  .hero p {
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgba(56, 153, 228, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .offers-btn {
+    
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #ffd166;
+    color: #073b4c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in;
+    font-family:'Open Sans', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+  }
+  .login-btn {
+    background-color: #3498db; 
+    color: rgb(247, 250, 249);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .login-btn:hover {
+    background-color: #2980b9;
+  }
+  .create-btn {
+    background-color: #3498db;
+    color: rgb(234, 239, 242);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  
+  
